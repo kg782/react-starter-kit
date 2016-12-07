@@ -28,6 +28,8 @@ async function copy() {
       },
     }, null, 2)),
     copyFile('LICENSE.txt', 'build/LICENSE.txt'),
+    copyDir('node_modules/bootstrap/dist/css', 'build/public/css'),
+    copyDir('node_modules/bootstrap/dist/fonts', 'build/public/fonts'),
     copyDir('src/content', 'build/content'),
     copyDir('public', 'build/public'),
   ]);

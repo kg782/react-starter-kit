@@ -9,6 +9,7 @@
     "babel-runtime": "6.18.0",
     "bluebird": "3.4.6",
     "body-parser": "1.15.2",
+    "bootstrap": "^3.3.7",
     "classnames": "2.2.5",
     "cookie-parser": "1.4.3",
     "core-js": "2.4.1",
@@ -18,6 +19,7 @@
     "fastclick": "1.0.6",
     "fbjs": "0.8.6",
     "front-matter": "2.1.1",
+    "graphiql": "0.8.0",
     "graphql": "0.8.2",
     "history": "4.4.0",
     "isomorphic-style-loader": "1.1.0",
@@ -35,7 +37,8 @@
     "source-map-support": "0.4.6",
     "sqlite3": "3.1.8",
     "universal-router": "2.0.0",
-    "whatwg-fetch": "2.0.1"
+    "whatwg-fetch": "2.0.1",
+    "react-bootstrap": "^0.30.0"
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.0",
